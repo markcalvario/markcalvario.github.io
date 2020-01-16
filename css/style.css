@@ -1,17 +1,109 @@
-.centerimg{
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	.centerimg{
 	display: block;
  	margin-left: auto;
   	margin-right: auto;
   	width: 10%;
-}
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
+	}
+	.column {
+	  float: left;
+	  width: 50%;
+	  padding: 10px;
+	}
+
+	.row:after{
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	.pantone292background{
+		background-color:#62A8E5;
+	}
+ }
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+	.font-class{
+		font-size: 50px;
+	}
+	.centerimg{
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+	  	width: 10%;
+	}
+	.column {
+	  float: left;
+	  width: 50%;
+	  padding: 10px;
+	}
+
+	.row:after{
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	.pantone292background{
+		background-color:#62A8E5;
+	}
+ }
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	.centerimg{
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 10%;
+	}
+	.column {
+	  float: left;
+	  width: 50%;
+	  padding: 10px;
+	}
+
+	.row:after{
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	.pantone292background{
+		background-color:#62A8E5;
+	}
 }
 
-.row:after{
-  content: "";
-  display: table;
-  clear: both;;
-}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+	.font-class{
+		font-size: 100px;
+	}
+	.centerimg{
+		display: block;
+	 	margin-left: auto;
+	  	margin-right: auto;
+	  	width: 10%;
+	}
+	.column {
+	 	float: left;
+	 	width: 50%;
+	  padding: 10px;
+	}
+
+	.row:after{
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	.pantone292background{
+		color:#62A8E5;
+	}
+ }
