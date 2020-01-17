@@ -1,109 +1,67 @@
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-	.centerimg{
+body {
+	margin-top: 0px;
+	margin-left:0px;
+	margin-right:0px;
+}
+.blackbackground{
+	background-color:black;
+}
+.pantone292background{
+	background-color:#62A8E5;
+	padding: 20px;
+}
+.whiteletter{
+	font-color: #ffffff ;
+}
+.font-class{
+	font-size: 100px;
+}
+.centerimg{
 	display: block;
  	margin-left: auto;
   	margin-right: auto;
-  	width: 10%;
-	}
-	.column {
-	  float: left;
-	  width: 50%;
-	  padding: 10px;
-	}
+  	width: 20%;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+#ceramicimg{
+	width: 400px;
 
-	.row:after{
-	  content: "";
-	  display: table;
-	  clear: both;
-	}
+}
+#pythonimg{
+	width:400px;
+}
+#h1{
+	margin-left: 25px;
+	font-style: ;
+}
+.Cinzel{
+	font-family: 'Cinzel', serif;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cropped1 {
+	margin: 0px;
+    width: 100%; /* width of container */
+    height:800px; /* height of container */
+    object-fit: cover;
+    border: 2px solid black;
+    background: url(../img/Me/Mark_in_Puebla.jpg) no-repeat center center fixed;
 
-	.pantone292background{
-		background-color:#62A8E5;
-	}
- }
-
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-	.font-class{
-		font-size: 50px;
-	}
-	.centerimg{
-	display: block;
- 	margin-left: auto;
-  	margin-right: auto;
-	  	width: 10%;
-	}
-	.column {
-	  float: left;
-	  width: 50%;
-	  padding: 10px;
-	}
-
-	.row:after{
-	  content: "";
-	  display: table;
-	  clear: both;
-	}
-
-	.pantone292background{
-		background-color:#62A8E5;
-	}
- }
-
+@media (min-width: 768px) { ... }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-	.centerimg{
-	display: block;
- 	margin-left: auto;
-  	margin-right: auto;
-  	width: 10%;
-	}
-	.column {
-	  float: left;
-	  width: 50%;
-	  padding: 10px;
-	}
-
-	.row:after{
-	  content: "";
-	  display: table;
-	  clear: both;
-	}
-
-	.pantone292background{
-		background-color:#62A8E5;
-	}
-}
-
+@media (min-width: 992px) { ... }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-	.font-class{
-		font-size: 100px;
-	}
-	.centerimg{
-		display: block;
-	 	margin-left: auto;
-	  	margin-right: auto;
-	  	width: 10%;
-	}
-	.column {
-	 	float: left;
-	 	width: 50%;
-	  padding: 10px;
-	}
-
-	.row:after{
-	  content: "";
-	  display: table;
-	  clear: both;
-	}
-
-	.pantone292background{
-		background-color:#62A8E5;
-	}
- }
+@media (min-width: 1200px) { ... }
