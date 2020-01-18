@@ -1,7 +1,5 @@
-body {
-	margin-top: 0px;
+.margin0 {
 	margin-left:0px;
-	margin-right:0px;
 }
 .blackbackground{
 	background-color:black;
@@ -28,14 +26,15 @@ body {
 }
 #ceramicimg{
 	width: 400px;
+	height:350px;
 
 }
 #pythonimg{
 	width:400px;
+	height:350px;
 }
-#h1{
-	margin-left: 25px;
-	font-style: ;
+.h1{
+	margin-left: 20px;
 }
 .Cinzel{
 	font-family: 'Cinzel', serif;
@@ -54,6 +53,59 @@ body {
     background: url(../img/Me/Mark_in_Puebla.jpg) no-repeat center center fixed;
 
 }
+
+
+
+.bluebackground{
+	background-color: #33F6FF;
+}
+
+.totheleft{
+	margin-left:0px;
+}
+
+#navbar {
+	overflow: hidden;
+	background-color:#62A8E5;
+}
+#navbar a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#navbar a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+#navbar a.active {
+	color: white;
+}
+
+.content {
+	padding: 16px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+
+.sticky + .content{
+	padding-top: 60px;
+}
+
+.border{
+	border-width: 2px;
+}
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
 
