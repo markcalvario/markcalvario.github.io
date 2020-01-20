@@ -1,6 +1,8 @@
-*{
+.margin0{
 	margin:0px;
-	padding: 0px;
+}
+.marginleft20{
+	margin-left:20px;
 }
 .blackletter{
 	font-color: black;
@@ -52,7 +54,7 @@
 .cropped1 {
     width: 100%; /* width of container */
     height:800px; /* height of container */
-    object-fit: cover;
+ 	object-fit: cover;
     border: 2px solid black;
     margin:0px;
     background: url(../img/Me/Mark_in_Puebla.jpg) no-repeat center center fixed;
@@ -161,6 +163,13 @@
   content: "";
   display: table;
   clear: both;
+}
+
+.lightred{
+	background-color: #ECC9B5;
+}
+#columbialogo{
+	max-width:  50%;
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
