@@ -1,6 +1,14 @@
 .margin0{
 	margin:0px;
 }
+.left{
+	float: left;
+	width: 50%;
+}
+.right{
+	float: right;
+	width: 50%;
+}
 .marginleft20{
 	margin-left:20px;
 }
