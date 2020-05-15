@@ -1,184 +1,430 @@
-.margin0{
-	margin:0px;
+.playfair{
+    font-family: 'Playfair Display', serif;
 }
-.marginleft20{
-	margin-left:20px;
-}
-.blackletter{
-	font-color: black;
-}
-.blackbackground{
-	background-color:black;
-}
-.pantone292background{
-	background-color:#62A8E5;
-	padding: 20px;
+.topImg{
+    background: url(./NewYork.JPG);
+    background-size: cover;
+    background-position: center;
+    height:830px;
+    margin: 0px;
+   
 }
 .whiteletter{
-	font-color: #ffffff ;
+    color: white;
 }
-.font-class{
-	font-size: 100px;
+.about-row{
+    padding-left:100px;
 }
-.centerimg{
-	display: block;
- 	margin-left: auto;
-  	margin-right: auto;
-  	width: 20%;
+.aboutMe{
+    background-color: #EBEBE1;
+    height:700px;
+    
 }
-.column {
+.aboutTitle{
+    font-size: 40px;
+    border: 2px solid black; border-radius: 10px;
+    margin: 0px; padding:10px;
+    width: 400px;
+    
+}
+.aboutDescription{
+    text-indent: 50px;
+}
+.markPuebla{
+    height:550px;
+    border: 3px solid black; 
+    border-radius: 6px;
+    margin-left:140px;
+    
+}
+.education{
+    background-color: #EBEBE1;
+    height: 600px;
+    padding-left: 100px;
+}
+.education h1{
+    
+}
+ .eduRight h1{
+    margin-left: 0px;
+}
+.columbiaLogo{
+    height: 400px; width: 400px; padding-top: 30px; 
+    padding-bottom: 30px;
+}
+.skillsDiv{
+    background-color: #EBEBE1;
+    height: 500px;
+}
+.skillsTitle{
+    font-size: 40px;
+    border: 2px solid black; border-radius: 10px;
+    margin: 0px; padding:10px;
+    width: 400px;
+}
+.skillsList{
+}
+.skillsList li{
+
+}
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+    width: auto;
+    display: inline-block;
+    color: #fff;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { max-width: 0 }
+    to { max-width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}            
+ .typeWriterBorder{
+    border: .15em solid orange;
+}
+.typeWriterBorder h1{
+    
+}
+/* END OF TYPE WRITER EFFECT */
+
+/**For Sticky NavBar **/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.topnav a {
   float: left;
-  width: 50%;
-}
-#ceramicimg{
-	width: 400px;
-	height:350px;
-
-}
-#pythonimg{
-	width:400px;
-	height:350px;
-}
-.h1{
-	margin-right: 0px;
-	margin-left: 0px;
-}
-.Cinzel{
-	font-family: 'Cinzel', serif;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.cropped1 {
-    width: 100%; /* width of container */
-    height:800px; /* height of container */
- 	object-fit: cover;
-    border: 2px solid black;
-    margin:0px;
-    background: url(../img/Me/Mark_in_Puebla.jpg) no-repeat center center fixed;
-
-}
-.bottomborder{
-	border-bottom: 2px solid black;
-}
-
-
-.bluebackground{
-	background-color: #33F6FF;
-}
-
-.totheleft{
-	margin-left:0px;
-}
-
-#navbar {
-	overflow: hidden;
-	background-color:#62A8E5
-}
-#navbar a{
-	float: left;
-	display: block;
-	color: #f2f2f2;
-	text-align:center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-}
-
-#navbar a:hover {
-	background-color: #ddd;
-	color: black;
-}
-
-#navbar a.active {
-	color: white;
-}
-
-.content {
-	padding: 16px;
-}
-
-.sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-
-}
-
-.sticky + .content{
-	padding-top: 60px;
-}
-
-.border{
-	border-width: 2px;
-}
-
-
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  border-radius: 50%;
+  font-size: 17px;
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
-.fa-instagram {
-  background: #125688;
+
+.topnav a.active {
+  background-color: #333;
   color: white;
 }
-.smallerimg{
-	height: 400px;
-	width: 400px;
+
+.topnav .icon {
+  display: none;
 }
-.rotateimg270 {
-  -webkit-transform:rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  transform: rotate(270deg);
-}
-.rotateimg180{
-	-webkit-transform:rotate(180deg);
-	-moz-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	transform: rotate(180deg);
+/* Page content */
+.content {
+  padding: 16px;
 }
 
-.column2 {
-  float: left;
-  width: 33.33%;
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-/* Clear floats after the columns */
-.row2:after {
-  content: "";
-  display: table;
-  clear: both;
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }
 
-.lightred{
-	background-color: #ECC9B5;
+/** End of Sticky NavBar **/
+
+.left {
+    float: left ;
+    width: 50% ;
 }
-#columbialogo{
-	max-width:  50%;
+.right {
+    float: left;
+    width: 50%;
 }
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+/** For iPhone 6/7/8/X regular size**/
+@media only screen and (min-width: 375px) and (max-width: 812px){
+    .topImg{
+        background-size: 200% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: none;
+    }
+    .about-row{
+        padding-left:0px;
+    }
+    .aboutMe{
+        background-color: #EBEBE1;
+        height:400px; 
+    }
+    .aboutTitle{
+        font-size: 32px;
+        border: 2px solid black;border-radius: 10px;
+        margin: 0px; padding:0px;
+        width: 200px;
+        
+    }
+    .aboutDescription{
+        font-size: 16px; font-weight: normal; margin-top: -10px;
+    }
+    .markPuebla{
+        height:300px; width: 280px;
+        border: 3px solid black; border-radius: 6px;
+        margin-left:0px;padding: 0px; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .education{
+        background-color: #EBEBE1;
+        height: 512px;
+        padding: 20px;
+    }
+    .education h1{
+        font-size: 1.5em;
+        display: block;
+    }
+    .education h4{
+        font-size:.4em; display: block;margin-top: -10px;
+    }
+    .eduRight h5{
+        font-size: .4em;
+    }
+    .columbiaLogo{
+        height: 150px; width: 150px;
+        margin-top: -30px;
+    }
+    .skillsDiv{
+        background-color: #EBEBE1;
+        height: 200px;
+        
+    }
+    .skillsTitle{
+        border: 2px solid black; border-radius: 10px;  
+        width: 150px; height: 20px;
+    }
+    .skillsTitle h1{
+        font-size: 18px;
+        margin: 0px;
+    }
+    /* DEMO-SPECIFIC STYLES */
+    .typewriter h1 {
+        width: auto;
+        display: inline-block;
+        color: white;
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid orange; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+        font-size: 20px;
+        
+    }
+    .typeWriterBorder{
+        transform: translate(0px,50px); 
+         
+    }
+    .typeWriterBorder h1{
+        font-size: 27px;
+        display: block;
+    }    
+    /* END OF TYPE WRITER EFFECT */
+    /**For Sticky NavBar **/
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    .topnav a.active {
+      background-color: #333;
+      color: white;
+      display:none;
+    }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {position: fixed;}
+    .topnav.responsive .icon {
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+  
+    /** End of Sticky NavBar **/
+    .left {
+        float: left ;
+        width: 100% ;
+    }
+    .right {
+        float: left;
+        width: 100%;
+    }
+    
+    
+    /** For iPhone X and 8 Plus **/
+    @media only screen and (min-width: 414px) and (max-width: 736px){
+    .topImg{
+        background-size: 200% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: none;
+    
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+    }
+    .about-row{
+        padding-left:0px;
+    }
+    .aboutMe{
+        background-color: #EBEBE1;
+        height:400px; 
+    }
+    .aboutTitle{
+        font-size: 30px;
+        border: 2px solid black;border-radius: 10px;
+        margin: 0px; padding:0px;
+        width: 200px;
+        
+    }
+    .aboutDescription{
+        font-size: 16px; font-weight: normal; margin-top: -10px;
+    }
+    .markPuebla{
+        height:250px; width: 175px;
+        border: 3px solid black; border-radius: 6px;
+        margin-left:0px;padding: 0px; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .education{
+        background-color: #EBEBE1;
+        height: 492px;
+        padding: 20px;
+    }
+    .education h1{
+        font-size: .9em;
+        display: block;
+    }
+    .education h4{
+        font-size:.4em; display: block;margin-top: -10px;
+    }
+    .eduRight h1{
+        
+    }
+    .eduRight h5{
+        font-size: .4em;
+    }
+    .columbiaLogo{
+        height: 250px; width: 250px;
+        margin-top: -30px;
+    }
+    .skillsDiv{
+        background-color: #EBEBE1;
+        height: 200px;
+        
+    }
+    .skillsTitle{
+        border: 2px solid black; border-radius: 10px;
+        width: 150px; height: 20px;
+    }
+    .skillsTitle h1{
+        font-size: 18px;
+        margin: 0px;
+    }
+    /* DEMO-SPECIFIC STYLES */
+    .typewriter h1 {
+        width: auto;
+        display: inline-block;
+        color: white;
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid orange; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+        font-size: 20px;
+        
+    }
+  
+    .typewriterBox{
+        border: .15em solid orange;
+        transform: translate(0px,-225px);
+        height:23px;
+        
+        
+       
+    }
+    .typeWriterBorder h1{
+        font-size: 40px;
+        display: block;
+        
+    }    
+    /* END OF TYPE WRITER EFFECT */
+    /**For Sticky NavBar **/
+    .topnav a.active {
+      background-color: #333;
+      color: white;
+      display: none;
+    }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {position: fixed;}
+    .topnav.responsive .icon {
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+    /** End of Sticky NavBar **/
+    .left {
+        float: left ;
+        width: 100% ;
+    }
+    .right {
+        float: left;
+        width: 100%;
+    }
+}
