@@ -1,17 +1,133 @@
-/** For iPhone X and 8 Plus **/
-@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 2) {
-    
+/** For X & XR sizes**/
+@media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-min-device-pixel-ratio: 3){
     .topImg{
         background-size: 200% 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: none;
-
-
+    }
+    .about-row{
+        padding-left:0px;
+    }
+    .aboutMe{
+        background-color: #EBEBE1;
+        height:400px; 
+    }
+    .aboutTitle{
+        font-size: 32px;
+        border: 2px solid black;border-radius: 10px;
+        margin: 0px; padding:0px;
+        width: 200px;
+        
+    }
+    .aboutDescription{
+        font-size: 16px; font-weight: normal; margin-top: -10px;
+    }
+    .markPuebla{
+        height:300px; width: 280px;
+        border: 3px solid black; border-radius: 6px;
+        margin-left:0px;padding: 0px; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .education{
+        background-color: #EBEBE1;
+        height: 512px;
+        padding: 20px;
+    }
+    .education h1{
+        font-size: 1.5em;
+        display: block;
+    }
+    .education h4{
+        font-size:.4em; display: block;margin-top: -10px;
+    }
+    .eduRight h5{
+        font-size: .4em;
+    }
+    .columbiaLogo{
+        height: 150px; width: 150px;
+        margin-top: -30px;
+    }
+    .skillsDiv{
+        background-color: #EBEBE1;
+        height: 200px;
+        
+    }
+    .skillsTitle{
+        border: 2px solid black; border-radius: 10px;  
+        width: 150px; height: 20px;
+    }
+    .skillsTitle h1{
+        font-size: 18px;
+        margin: 0px;
+    }
+    /* DEMO-SPECIFIC STYLES */
+    .typewriter h1 {
+        width: auto;
+        display: inline-block;
+        color: white;
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid orange; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+        font-size: 20px;
+        
+    }
+    .typeWriterBorder{
+        transform: translate(0px,50px); 
+         
+    }
+    .typeWriterBorder h1{
+        font-size: 27px;
+        display: block;
+    }    
+    /* END OF TYPE WRITER EFFECT */
+    /**For Sticky NavBar **/
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    .topnav a.active {
+      background-color: #333;
+      color: white;
+      display:none;
+    }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {position: fixed;}
+    .topnav.responsive .icon {
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+  
+    /** End of Sticky NavBar **/
+    .left {
+        float: left ;
+        width: 100% ;
+    }
+    .right {
+        float: left;
+        width: 100%;
     }
 
 
-
-
-
-}
