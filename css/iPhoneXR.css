@@ -10,21 +10,24 @@
         padding-left:0px;
     }
     .aboutMe{
-        background-color: #EBEBE1;
-        height:400px; 
+        background-color: hsla(236, 100%, 78%, .2);
+        height:770px; 
+        margin: 10px;
+        border: 1px solid hsla(355, 100%, 78%, .9);
     }
     .aboutTitle{
-        font-size: 32px;
+        font-size: 2.5rem;
         border: 2px solid black;border-radius: 10px;
         margin: 0px; padding:0px;
         width: 200px;
         
     }
     .aboutDescription{
-        font-size: 16px; font-weight: normal; margin-top: -10px;
+        font-size: 1.3rem; font-weight: normal; margin-top: -10px;
+        padding: 0px 20px; line-height: 1.5;
     }
     .markPuebla{
-        height:300px; width: 280px;
+        height:400px; width: 280px;
         border: 3px solid black; border-radius: 6px;
         margin-left:0px;padding: 0px; 
         display: block;
@@ -33,16 +36,19 @@
         
     }
     .education{
-        background-color: #EBEBE1;
-        height: 512px;
+        background-color: white;
+        height: 700px;
         padding: 20px;
+        margin: 10px;
+        border: 1px solid hsla(355, 100%, 78%, .9);
     }
     .education h1{
         font-size: 1.5em;
         display: block;
     }
     .education h4{
-        font-size:.4em; display: block;margin-top: -10px;
+        font-size:1.3rem; display: block;margin-top: -10px;
+        font-weight: normal; display: inline-block ; line-height: 1.5;
     }
     .eduRight h5{
         font-size: .4em;
@@ -51,6 +57,7 @@
         height: 150px; width: 150px;
         margin-top: -30px;
     }
+    /** For the Skills section**/
     .skillsDiv{
         background-color: #EBEBE1;
         height: 200px;
@@ -64,6 +71,21 @@
         font-size: 18px;
         margin: 0px;
     }
+    .skillsList li{
+    list-style-image: url('https://s3.amazonaws.com/codecademy-content/projects/broadway/develop.svg');
+    font-size: 60px;
+    margin-left: 40px;
+    float: left;
+
+
+    }
+    .skillsList span{
+        font-size: 25px;
+        margin-right: 150px;
+
+    }
+    /* End of Skills Section*/
+
     /* DEMO-SPECIFIC STYLES */
     .typewriter h1 {
         width: auto;
@@ -103,12 +125,16 @@
       color: white;
       display:none;
     }
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:first-child) {
+        display: none;
+    }
     .topnav a.icon {
         float: right;
         display: block;
     }
-    .topnav.responsive {position: fixed;}
+    .topnav.responsive {
+        position: fixed;
+    }
     .topnav.responsive .icon {
         position: fixed;
         right: 0;
