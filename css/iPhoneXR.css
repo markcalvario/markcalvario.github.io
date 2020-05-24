@@ -1,4 +1,4 @@
-/** For X size**/
+/** For iPhone 6,7,8 Plus and iPhoneX size**/
 @media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-min-device-pixel-ratio: 3){
     .topImg{
         background-size: 200% 100%;
@@ -10,7 +10,7 @@
         padding-left:0px;
     }
     .aboutMe{
-        background-color: hsla(236, 100%, 78%, .2);
+        background-color: hsla(203, 25%, 70%,0.4);
         height:770px; 
         margin: 10px;
         border: 1px solid hsla(355, 100%, 78%, .9);
@@ -37,35 +37,44 @@
     }
     .education{
         background-color: white;
-        height: 700px;
+        height: 850px;
         padding: 20px;
         margin: 10px;
         border: 1px solid hsla(355, 100%, 78%, .9);
     }
     .education h1{
-        font-size: 1.5em;
+        font-size: 2.5rem;
         display: block;
     }
+    .educationTitle{
+        border: 2px solid black;border-radius: 10px;
+        width: 275px;
+    }
     .education h4{
-        font-size:1.3rem; display: block;margin-top: -10px;
-        font-weight: normal; display: inline-block ; line-height: 1.5;
+        font-size:1.3rem;
+        margin-top: -25px;
+        font-weight: normal;
+        display: inline-block ;
+        line-height: 1.5;
     }
     .eduRight h5{
-        font-size: .4em;
+        font-size: 1.5rem;
     }
     .columbiaLogo{
-        height: 150px; width: 150px;
+        height: 250px; width: 250px;
         margin-top: -30px;
     }
     /** For the Skills section**/
     .skillsDiv{
         background-color: #EBEBE1;
-        height: 200px;
+        height: 500px;
+        margin: 10px;
+        border: 1px solid hsla(355, 100%, 78%, .9);
         
     }
     .skillsTitle{
         border: 2px solid black; border-radius: 10px;  
-        width: 150px; height: 20px;
+        width: 150px; height: 20px; margin-top: 10px;
     }
     .skillsTitle h1{
         font-size: 18px;
