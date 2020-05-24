@@ -81,16 +81,13 @@
         margin: 0px;
     }
     .skillsList li{
-    list-style-image: url('https://s3.amazonaws.com/codecademy-content/projects/broadway/develop.svg');
-    font-size: 60px;
-    margin-left: 40px;
-    float: left;
-
-
+        list-style-image: url('https://s3.amazonaws.com/codecademy-content/projects/broadway/develop.svg');
+        font-size: 60px;
+        float: left;
     }
     .skillsList span{
         font-size: 25px;
-        margin-right: 150px;
+        margin-right: 100px;
 
     }
     /* End of Skills Section*/
