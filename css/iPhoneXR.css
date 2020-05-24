@@ -1,4 +1,4 @@
-/** For X & XR sizes**/
+/** For X size**/
 @media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-min-device-pixel-ratio: 3){
     .topImg{
         background-size: 200% 100%;
@@ -155,5 +155,7 @@
         float: left;
         width: 100%;
     }
+
+
 
 
