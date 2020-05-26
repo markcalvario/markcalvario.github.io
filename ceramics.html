@@ -1,112 +1,194 @@
 <!DOCTYPE html>
+
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="./css/style.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<title>
-			Ceramics Portfolio
-		</title>
 
-	</head>
-	<body>
-		<script src="./js/index.js"></script>
-		<div class= "pantone292background">
-			<center> My Ceramcis Portfolio</center>
-		</div>
-		<div id= 'navbar'>
-			<div>
-				<a class= "active" href= "about.html"> About me </a>
-			</div>
-			<div>
-				<a href= "about.html"> Contact </a>
-			</div>
-			<div>
-				<a href="https://www.instagram.com/markcalvario/" class="fa fa-instagram"></a>
-			</div>
-		</div>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/ceramicsStyle.css">
+        
+    <script>
+       /** Sticky NavBar **/
+       document.addEventListener("DOMContentLoaded", function(event) { 
+       var navbar= document.getElementById("myTopnav")
+       var sticky= navbar.offsetTop;
+
+       function myFunction() {
+           if (window.pageYOffset >= sticky) {
+               navbar.classList.add("sticky")
+           } else{
+               navbar.classList.remove("sticky")
+           }
+       }
+       window.onscroll= function () {myFunction()};
+       });
+       /** End of Sticky NavBar **/
+       function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+       
+        
+        var i = 0;
+        var txt = 'Ceramics By MAC';
+        var speed = 50;
+
+        function typeWriter() {
+          if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+          }
+        }
+
+      
+    </script>
+
+</head>
+
+    
+<body style= "margin:0px;">
+  <!-- First section-->
+  <div class="img1">
+      <div class= "typewriter">
+          <center>
+                <div class="topnav" id="myTopnav">
+                  <a class="active" href= "index.html">Home</a>
+                  <a href= "about.html">Contact</a>
+                  <a href="ceramics.html">Ceramics</a>
+                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </div>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br>  
+                    <div class= "typewriterBox">
+                        <body onload="typeWriter()" > 
+                        </body> <p id= "demo" class= "playfair"></p>
+                    </div>       
+            </center>   
+      </div>
+    </div>
+    <!-- End of First section-->
+    
+    <!-- Second section-->
+    <div class= "pictureBackground">
+        <h2 class="secondTitle"> <center><b>Mark's Ceramic Gallery</b>
+            </center></h2>
+        <div class= "container ceramicTitle">
+            <center>
+                <div class="column">
+                    <h5>Ceramic Piece #1</h5>
+                    <img class= "img2" src= "./img/Ceramics/IMG_5397.JPG">
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #2</h5>
+                    <img class="img3" src="./img/Ceramics/ceramicbowl.JPG">
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #3</h5>
+                    <img class= "img4" src="./img/Ceramics/IMG_5398.JPG">
+                </div>
+            </center>
+        </div>      
+        <div class= "container ceramicTitle">
+            <center>
+                <div class="column">
+                    <h5>Ceramic Piece #4</h5>
+                    <div class= "img5">
+                    </div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #5</h5>
+                    <div class= "img6"></div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #6</h5>
+                    <div class= "img7"></div>
+                </div>
+            </center>
+        </div>      
+        <div class= "container ceramicTitle">
+            <center>
+                <div class="column">
+                    <h5>Ceramic Piece #7</h5>
+                    <div class= "img8">
+                    </div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #8</h5>
+                    <div class= "img9"></div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #9</h5>
+                    <div class= "img10"></div>
+                </div>
+            </center>
+        </div>     
+        <div class= "container ceramicTitle">
+            <center>
+                <div class="column">
+                    <h5>Ceramic Piece #10</h5>
+                    <div class= "img11">
+                    </div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #11</h5>
+                    <div class= "img12"></div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #12</h5>
+                    <div class= "img13"></div>
+                </div>
+            </center>
+        </div>  
+        <div class= "container ceramicTitle">
+            <center>
+                <div class="column">
+                    <h5>Ceramic Piece #13</h5>
+                    <div class= "img14">
+                    </div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #14</h5>
+                    <div class= "img15"></div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #15</h5>
+                    <div class= "img16"></div>
+                </div>
+            </center>
+        </div>     
+        <div class= "container ceramicTitle">
+            <center>
+                <div class="column">
+                    <h5>Ceramic Piece #16</h5>
+                    <div class= "img17">
+                    </div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #17</h5>
+                    <div class= "img18"></div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #18</h5>
+                    <div class= "img19"></div>
+                </div>
+            </center>
+        </div>     
+    </div>
 
 
-		
-		<div>
-			<div class="row2">
-				<div class="column2">
-				  	<center>
-				 	 <img src= "./img/Ceramics/ceramic bowl.jpg">
-				 	</center>
-				</div>
-				<div class="column2">
-			  		<center> <img src= "./img/Ceramics/IMG_5390.jpg " class= "rotateimg270"> </center>
-			  	</div>
-				<div class="column2">
-			  		<center>
-						<img src= "./img/Ceramics/IMG_5400.jpg" class= "smallerimg rotateimg270">
-					</center>
-				</div>
-			</div>
-		</div>
-		<div>
-			<div class="row2">
-				<div class="column2">
-				  	<center>
-				 	 <img src= "./img/Ceramics/IMG_5391.jpg" class= "smallerimg rotateimg270">
-				 	</center>
-				</div>
-				<div class="column2">
-			  		<center> <img src= "./img/Ceramics/IMG_5393.jpg" class= "smallerimg rotateimg270"></center>
-			  	</div>
-				<div class="column2">
-			  		<center>
-						<img src= "./img/Ceramics/IMG_5394.jpg" class= "smallerimg">
-					</center>
-				</div>
-			</div>
-
-			<div class="row2">
-				<div class="column2">
-				  	<center>
-				 	 <img src= "./img/Ceramics/IMG_5395.jpg" class= "smallerimg rotateimg270">
-				 	</center>
-				</div>
-				<div class="column2">
-			  		<center> <img src= "./img/Ceramics/IMG_5396.jpg" class= "smallerimg rotateimg270"></center>
-			  	</div>
-				<div class="column2">
-			  		<center>
-						<img src= "./img/Ceramics/IMG_5398.jpg" class= "smallerimg">
-					</center>
-				</div>
-			</div>
-			<div class="row2">
-				<div class="column2">
-				  	<center>
-				 	 <img src= "./img/Ceramics/IMG_5391.jpg" class= "smallerimg rotateimg270">
-				 	</center>
-				</div>
-				<div class="column2">
-			  		<center> <img src= "./img/Ceramics/IMG_5393.jpg" class= "smallerimg rotateimg270"></center>
-			  	</div>
-				<div class="column2">
-			  		<center>
-						<img src= "./img/Ceramics/IMG_5394.jpg" class= "smallerimg">
-					</center>
-				</div>
-			</div>
-			<div class="row2">
-				<div class="column2">
-				  	<center>
-				 	 <img src= "./img/Ceramics/IMG_8374.jpg" class= "smallerimg rotateimg270">
-				 	</center>
-				</div>
-				<div class="column2">
-			  		<center> <img src= "./img/Ceramics/IMG_8488.jpg" class= "smallerimg rotateimg270"></center>
-			  	</div>
-				<div class="column2">
-			  		<center>
-						<img src= "./img/Ceramics/IMG_8546.jpg" class= "smallerimg">
-					</center>
-				</div>
-			</div>
-		</div>
-	</body>
-
+    
+    
+    
+    
+</body>
 </html>

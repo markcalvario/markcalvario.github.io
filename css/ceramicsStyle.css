@@ -1,0 +1,531 @@
+.playfair{
+            font-family: 'Playfair Display', serif;
+        }
+.ceramicTitle h5{
+    font-size: 28px;
+}
+.secondTitle{
+    font-size: 40px;
+}
+div .pictureBackground{
+    background-color:#EBEBE1; 
+    height: auto;
+}
+.whiteletter{
+    color: white;
+    font-size: 60px;
+}    
+.container{
+    margin-bottom: 100px;
+}
+.img1{
+    background-image: url(../img/Ceramics/IMG_8406.JPG); 
+    background-size: cover;
+    background-position: center;
+    height:830px;
+}
+.typewriterBox{
+        border: .15em solid orange;
+        height:150px; 
+        width:700px;
+        display: block;
+    }
+    .typewriterBox p{
+        font-size:70px; color:white;
+        transform: translate(0px,-50px);
+}
+/**For Sticky NavBar **/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0; z-index:1;
+    width: 100%;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #333;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/** End of Sticky NavBar **/
+
+.image-container {
+    overflow: hidden;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display:block;    
+}
+.left {
+    float: left ;
+    width: 50% ;
+}
+.right {
+    float: left;
+    width: 50%;
+}
+.img2{
+    transform: rotate(270deg);
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 330px;
+    height:330px;
+
+}
+.img3{
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 330px;
+    height:330px;
+    
+}
+.img4{
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 330px;
+    height:330px;
+}
+.img5{
+    background-image:url("../img/Ceramics/IMG_5391.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border:  1px solid black;
+    border-radius: 6px;
+    width:330px;
+    height:330px;
+    transform: rotate(270deg);
+}
+.img6{
+    background-image:url("../img/Ceramics/IMG_8374.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 6px;
+    width:330px;
+    height:330px;
+}
+.img7{
+    background-image:url("../img/Ceramics/IMG_8488.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 6px;
+    width:330px;
+    height:330px;
+}
+.img8{
+    background-image:url("../img/Ceramics/IMG_8430.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 6px;
+    width:330px;
+    height:330px;
+}
+.img9{
+    background-image:url("../img/Ceramics/IMG_8437.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 6px;
+    width:330px;
+    height:330px;
+}
+.img10{
+    background-image:url("../img/Ceramics/IMG_8546.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 330px;
+    height:330px;
+}
+.img11{
+    background-image:url("../img/Ceramics/IMG_8700.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 6px;
+    width:330px;
+    height:330px;
+}
+.img12{
+    background-image:url("../img/Ceramics/IMG_8454.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 6px;
+    width:330px;
+    height:330px;
+}
+.img13{
+    background-image:url("../img/Ceramics/IMG_8670.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 330px;
+    height:330px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+.img14{
+    background-image:url("../img/Ceramics/IMG_8398.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 6px;
+    width:330px;
+    height:330px;
+}
+.img15{
+    background-image:url("../img/Ceramics/IMG_5393.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 6px;
+    width:330px;
+    height: 330px;
+    transform: rotate(270deg);
+}
+.img16{
+    background-image:url("../img/Ceramics/IMG_5388.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 330px;
+    height: 330px;
+    transform: rotate(270deg);
+}
+.img17{
+    background-image:url("../img/Ceramics/IMG_8386.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 330px;
+    height: 330px;
+}
+.img18{
+    background-image:url("../img/Ceramics/IMG_5399.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 330px;
+    height:330px;
+    transform: rotate(270deg);
+}
+.img19{
+    background-image:url("../img/Ceramics/IMG_5394.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 330px;
+    height:330px;
+}
+        @media only screen and (min-width: 375px) and (max-width: 767px){
+            .img1{
+                background-image: url(../img/Ceramics/IMG_8406.JPG);  
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+        
+                
+            }
+            .img2{
+              
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                transform: rotate(0deg);
+                width: 175px;
+                height:175px;
+                border: 1px solid black;
+                border-radius: 6px;
+
+            }
+            .img3{
+                
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width:175px;
+                height:175px;
+            }
+            .img4{
+                
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img5{
+                background-image: url("./ceramics/IMG_5391.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+                transform: rotate(0deg);
+            }
+            .img6{
+                background-image: url("./ceramics/IMG_8374.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img7{
+                background-image: url("./ceramics/IMG_8488.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width:175px ;
+                height:175px;
+            }
+            .img8{
+                background-image:url("./ceramics/IMG_8430.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img9{
+                background-image:url("./ceramics/IMG_8437.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img10{
+                background-image:url("./ceramics/IMG_8546.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img11{
+                background-image:url("./ceramics/IMG_8700.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img12{
+                background-image:url("./ceramics/IMG_8454.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img13{
+                background-image:url("./ceramics/IMG_8670.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img14{
+                background-image:url("./ceramics/IMG_8398.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img15{
+                background-image:url("./ceramics/IMG_5393.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+                transform: rotate(0deg);
+            }
+            .img16{
+                background-image:url("./ceramics/IMG_5388.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+                transform: rotate(0deg);    
+            }
+            .img17{
+                background-image:url("./ceramics/IMG_8386.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img18{
+                background-image:url("./ceramics/IMG_5399.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+                transform: rotate(0deg);
+            }
+            .img19{
+                background-image:url("./ceramics/IMG_5394.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            /* DEMO-SPECIFIC STYLES */
+            .typewriterBox{
+                border: .15em solid orange;
+                height:150px; 
+                width:250px;
+                display: block;
+            }
+            .typewriterBox p{
+                font-size:50px; color:white;
+                transform: translate(0px,-50px);
+            }
+            /* END OF TYPE WRITER EFFECT */
+            /**For Sticky NavBar **/
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 1;
+            }
+            .topnav a.active {
+              background-color: #333;
+              color: white;
+              display:none;
+            }
+            .topnav a:not(:first-child) {display: none;}
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+            .topnav.responsive {position: fixed;}
+            .topnav.responsive .icon {
+                position: fixed;
+                right: 0;
+                top: 0;
+            }
+            .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+          
+            /** End of Sticky NavBar **/
+            .column{
+                width: 50%;
+                transform: translate(0px, -28px);
+            }
+            .ceramicTitle h5{
+                font-size: .83em
+            }
+            .secondTitle{
+                font-size: 1.2em;
+            }
+        }
