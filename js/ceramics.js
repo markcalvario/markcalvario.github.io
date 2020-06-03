@@ -45,7 +45,7 @@ function changeImage(id,image,oldClassName,newClassName){
   }else{
     document.getElementById(id).classList.remove(newClassName);
     document.getElementById(id).classList.add(oldClassName);
-    
   }
+  return false;
   
 }
