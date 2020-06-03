@@ -1,4 +1,5 @@
 
+
  /** Sticky NavBar **/
        document.addEventListener("DOMContentLoaded", function(event) { 
        var navbar= document.getElementById("myTopnav")
@@ -46,3 +47,20 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+const context={
+  user: "you"
+}
+
+const source= document.getElementById('animationTemp').innerHTML;
+const template= Handlebars.compile(source);
+
+const compiledHtml= template(context);
+
+document.getElementById('animation').innerHTML= compiledHtml;
+
+
+
+
+
+
