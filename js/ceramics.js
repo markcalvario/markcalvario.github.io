@@ -38,7 +38,7 @@ window.onclick = function(event) {
 
 function changeImage(id,image,oldClassName,newClassName){
   var beehive1= document.getElementById(id);
-  beehive1.src=image;
+  beehive1.src='image';
   if (window.matchMedia("(min-width: 375px) and (max-width: 767px)").matches){
     document.getElementById(id).classList.remove(oldClassName);
     document.getElementById(id).classList.add(newClassName);
