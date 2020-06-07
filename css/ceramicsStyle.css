@@ -114,7 +114,41 @@
     cursor: pointer;
     height: 470px;
     width: 362px;
+}
+.beehiveTitle2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.beehiveLeft{
+    float: left;
+    width: 50%;
+    display: inline;
+}
+.beehiveMiddle{
+    margin-bottom: 0px;
+}
+#beehiveFig1{
+    display: inline;
 
+}
+#beehiveFig2{
+    width: 250px;
+}
+.beehiveImg2{
+    height: 320px;
+    width: 212px;
+    display: block;
+    transform: translate(350px,0px);
+}
+.beehiveImg3{
+    height: 320px;
+    width: 212px;
+    transform: translate(20px,0px); 
+}
+.beehiveDescription{
+    font-size: 1.2rem;
+    text-indent: 50px;
+    transform: translate(0px,20px);
 }
 .circularButton{
     border-radius: 100%;
@@ -122,40 +156,6 @@
     cursor: pointer;
     padding: 5px;
     border: none;
-}
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  height: 600px;
-}
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
 }
 /* End of Beehive Section*/
 
@@ -215,10 +215,77 @@
   float: left;
   width: 33.33%;
 }
+.footer{
+    background-color: #333;
+    height: 150px;
+    font-color: white;
+}
+/* IMAGE MODAL */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 600px;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
 
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* End of Image Modal */
+.footer .fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
 
-
-
+}
+.fa-linkedin {
+  background: #333;
+  color: white;
+}
+.fa-instagram {
+  background: #333;
+  color: white;
+}
+.etsyLogo{
+    color: white;
+}
+.footer div{
+    text-align: center;
+    display: block;
+}
+.footer p{
+    font-size: 25px;
+    color: white;
+    margin-bottom: -5px;
+}
         @media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
             .img1{
                
@@ -289,6 +356,7 @@
             }
             .beehiveColumn{
                 margin-bottom: 20px;
+                
             }
             .beehiveFigure{
                 width: 100%;
@@ -297,8 +365,31 @@
                 height: 320px;
                 width: 212px;
             }
+            .beehiveImg2{
+                height: 270px;
+                width: 162px;
+                transform: translate(0px,0px);
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .beehiveImg3{
+                height: 270px;
+                width: 162px;
+                display: none;
+                transform: translate(0px,0px);
+            }
+            .beehiveLeft{
+                float: none;
+                width: 100%;
+            }
+            .beehiveDescription{
+                width: 300px;
+                transform: translate(0px,0px);  
+            }
+
             .redBowlColumn{
                 margin-bottom: 20px;
+                transform: translate(0px, 0px);
             }
             .drippingRedBowl{
                 height: 250px;
@@ -309,16 +400,12 @@
                 width: 302px;
                 
             }
-            .redBowlColumn{
-                transform: translate(0px, 0px);
-                margin-bottom: 20px;
-            }
             .modalBowl{
                 height: 150px;
                 width: 202px;
             }
             .earthenwareVaseColumn{
-                margin-bottom: 20px;
+               margin-bottom: 20px;
             }
             .earthenwareVase{
                 height: 320px;
@@ -331,6 +418,16 @@
             .earthenwareVaseModal{
                 height: 270px;
                 width: 162px;
+            }
+            .modal{
+                padding-top: 48px;
+            }
+            .modal-content{
+                height: 550px;
+            }
+            .footer p{
+                font-size: 20px;
+                margin: 0px;
             }
         }
 
@@ -414,7 +511,24 @@
                 height: 320px;
                 width: 212px;
             }
+            .beehiveLeft figure{
+                margin: 0px;
+            }
+            .beehiveLeft{
+                align-content: center;
+            }
+            .beehiveImg2{
+                height: 270px;
+                width: 162px;
+            }
+            .beehiveImg3{
+                height: 270px;
+                width: 162px;
+                display: none;
+            }
             .redBowlColumn{
+                margin-bottom: 20px;
+                transform: translate(0px, 0px);
                 margin-bottom: 20px;
             }
             .drippingRedBowl{
@@ -425,10 +539,6 @@
                 height: 250px;
                 width: 302px;
                 
-            }
-            .redBowlColumn{
-                transform: translate(0px, 0px);
-                margin-bottom: 20px;
             }
             .modalBowl{
                 height: 150px;
@@ -448,6 +558,13 @@
             .earthenwareVaseModal{
                 height: 270px;
                 width: 162px;
+            }
+            .modal-content{
+                height: 700px;
+            }
+            .footer p{
+                font-size: 20px;
+                margin: 0px;
             }
         }
 
