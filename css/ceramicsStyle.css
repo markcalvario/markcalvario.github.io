@@ -100,6 +100,10 @@
     margin: 0px 150px;
     height: 700px;
 }
+.row2{
+    margin: 0px 150px;
+    height: 700px;
+}
 /* Beehive Section*/
 .beehiveColumn{
 
@@ -211,6 +215,61 @@
 }
 
 /* End of Green Container Section */
+.greenMarbleColumn{
+   margin: 0px;
+}
+.greenMarbleFigure{
+    margin: 0px;
+}
+.greenMarbleTitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+.greenMarbleVase{
+    height: 470px;
+    width: 362px;
+    cursor: pointer;
+}
+.greenMarbleVase2{
+    height: 470px;
+    width: 362px; cursor: pointer;
+}
+.greenMarbleModal{
+    height: 470px;
+    width: 362px;
+}
+/* End of Green Marble Vase */
+/* Start of Swirl Bowl */
+.swirlBowlColumn{
+    transform: translate(0px, 100px);
+}
+.swirlBowlFigure{
+    margin: 0px;
+}
+.swirlBowlTitle{
+    font-family: 'Open Sans', sans-serif; font-size: 2rem;
+}
+.swirlBowl{
+    height: 270px;
+    width: 362px;
+    cursor: pointer;
+}
+.swirlBowl2{
+    height: 270px;
+    width: 362px;
+    cursor: pointer;
+}
+.swirlBowlModal{
+    height: 270px;
+    width: 362px;
+}
+
+
+
+
+
+
+
 .column {
   float: left;
   width: 33.33%;
@@ -348,8 +407,11 @@
             }
             .row1{
                 margin: 0px;
-                height: 1700px;
-                
+                height: 1400px;
+            }
+            .row2{
+                margin: 0px;
+                height: 1400px;
             }
             .galleryTitle{
                 font-size: 2.2rem;     
@@ -418,6 +480,40 @@
             .earthenwareVaseModal{
                 height: 270px;
                 width: 162px;
+            }
+            /* Green Marble Vase*/
+            .greenMarbleColumn{
+               margin-bottom: 20px;
+            }
+            .greenMarbleVase{
+                height: 345px;
+                width: 237px;
+            }
+            .greenMarbleVase2{
+                height: 345px;
+                width: 237px;
+            }
+            .greenMarbleModal{
+                height: 270px;
+                width: 162px;
+            }
+            /* Swirl Bowl */
+            .swirlBowlColumn{
+                margin-bottom: 20px;
+                transform: translate(0px, 0px);
+            }
+            .swirlBowl{
+                height: 250px;
+                width: 302px;
+            }
+            .swirlBowl2{
+                height: 250px;
+                width: 302px;
+                
+            }
+            .swirlBowlModal{
+                height: 150px;
+                width: 202px;
             }
             .modal{
                 padding-top: 48px;
@@ -495,8 +591,11 @@
             }
             .row1{
                 margin: 0px;
-                height: 1700px;
-                
+                height: 1400px;
+            }
+            .row2{
+                margin: 0px;
+                height: 1400px;
             }
             .galleryTitle{
                 font-size: 2.2rem;     
@@ -558,6 +657,40 @@
             .earthenwareVaseModal{
                 height: 270px;
                 width: 162px;
+            }
+            /* Green Marble Vase*/
+            .greenMarbleColumn{
+               margin-bottom: 20px;
+            }
+            .greenMarbleVase{
+                height: 320px;
+                width: 212px;
+            }
+            .greenMarbleVase2{
+                height: 320px;
+                width: 212px;
+            }
+            .greenMarbleModal{
+                height: 270px;
+                width: 162px;
+            }
+            /* Swirl Bowl */
+            .swirlBowlColumn{
+                margin-bottom: 20px;
+                transform: translate(0px, 0px);
+            }
+            .swirlBowl{
+                height: 250px;
+                width: 302px;
+            }
+            .swirlBowl2{
+                height: 250px;
+                width: 302px;
+                
+            }
+            .swirlBowlModal{
+                height: 150px;
+                width: 202px;
             }
             .modal-content{
                 height: 700px;

@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" type="text/css" href="./css/about.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>
 			About me
 		</title>
-	</head>
-	<body>
 		<script src="./js/about.js"></script>
+
+	</head>
+
+	<body>
+
+		
 		<!-- Navbar starts-->
+		<div class="topnav" id="myTopnav">
+		    <a class="active" href= "index.html">Home</a>
+		    <a href= "About.html">Computer Science</a>
+		    <a href="ceramics.html">Ceramics</a>
+		    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		     <i class="fa fa-bars"></i>
+		     </a>
+        </div>
+        <br><br>
 		<center>
-			<strong style="font-size: 80px"> COMING SOON! </strong><br>
-			<button onclick= "moveBallDown()"> <h3>Click here to a ball bounce!</h3></button><br><br><br><br><br><br>
+			<h1 class="comingSoon"><strong> COMING SOON! </strong></h1><br>
+	
+			<button  onclick= "moveBallDown()"> <h3 class="btnTxt">Click here to see a ball bounce!</h3></button>
+			<br><br>
 		</center>
-		<center>
-			<button id= "ball" style= "background-color: blue; padding: 90px; 
-			border-radius: 50%"> </button>
-		</center>
+
+
+		<div class="ballBox">
+			<center>
+				<button id= "ball"> </button>
+			</center>
+		</div>
+
 
 		<!--	
 		<div id= 'navbar'>
