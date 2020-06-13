@@ -111,7 +111,7 @@
         <section>
 
             <center>
-                <form class= "userInfo">
+                <form class= "userInfo" method="POST">
                     <br>
                     <label for="userId"> User ID</label><br>
                     <input type="text" name="userId" id= "userId"><br>
@@ -122,7 +122,7 @@
                     <label for= "email"> Email Address </label><br>
                     <input type= "text" name= "email" id= "email"><br><br>
 
-                    <button id= "submitBtn" class= "submitBtn">Submit</button>
+                    <input type="submit" id= "submitBtn" class= "submitBtn" onclick= "showInput();">
 
                 </form>
             </center>
@@ -131,8 +131,16 @@
         
         <br><br><br><br><br><br><br><br><br><br>
         
-        <br><br><br><br><br><br><br><br><br><br>
 
+        <section>
+            <center> 
+                <span id="welcomeName"> </span>
+                <span id= "welcomeUser"></span>
+                <span id= "showEmail"></span>
+            </center>
+        </section>
+        <br><br><br><br><br><br><br><br><br><br>
+        
 
 
 

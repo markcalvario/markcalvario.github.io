@@ -252,7 +252,7 @@ padding-top: 60px;
       #title::before{
         content: "Computer Science Portfolio\A\A";
         display: inline-block;
-        white-space: pre;font-size: 1.6rem;
+        white-space: pre;font-size: 1.5rem;
       }
 
       .me{
@@ -342,15 +342,13 @@ padding-top: 60px;
       }
       .userInfo{
         background-color: hsla(0, 0%, 83%,0.8);
-        width: 200px;
+        width: 80%;
       }
 
     }
 
-    /* ----------- iPhone X ----------- */
-
+    /** For iPhone 6,7,8 Plus and iPhoneX size**/
     /* Portrait and Landscape */  
-
     @media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-min-device-pixel-ratio: 3){
 
       /**For Sticky NavBar **/
@@ -399,11 +397,15 @@ padding-top: 60px;
         content: "Computer Science Portfolio\A\A";
         display: inline-block;
         white-space: pre;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
       }
       .me{
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         text-align: center;
+      }
+      .me::before{
+        content: "Programmer  |  Student  |  Creator";
+        white-space: pre; font-weight: 900;
       }
       .comingSoon{
         font-size: 1.8rem;
@@ -480,7 +482,7 @@ padding-top: 60px;
       }
       .userInfo{
         background-color: hsla(0, 0%, 83%,0.8);
-        width: 200px;
+        width: 80%;
       }
 
     }

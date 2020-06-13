@@ -20,6 +20,16 @@ const lastName= document.getElementById('lastName');
 const email= document.getElementById('email');
 const submitBtn= document.getElementById('submitBtn');
 
+
+
+function showInput(){
+  document.getElementById('welcomeName').innerHTML= `Welcome ${firstName.value} ${lastName.value}`;
+  document.getElementById('welcomeUser').innerHTML= `Welcome ${userId.value}!`;
+  document.getElementById('showEmail').innerHTML= `Is ${email.value} your correct email address?`;
+}
+
+
+
 const database= firebase.database();
 
 submitBtn.addEventListener('click', (e)=>{
