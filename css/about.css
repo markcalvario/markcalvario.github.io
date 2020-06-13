@@ -1,61 +1,188 @@
+.playfair{
+  font-family: 'Playfair Display', serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
 /**For Sticky NavBar **/
 .topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0; z-index:1;
-    width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0; z-index:1;
+  width: 100%;
 }
 .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+background-color: #ddd;
+color: black;
 }
 
 .topnav a.active {
-  background-color: #333;
-  color: white;
+background-color: #333;
+color: white;
 }
 
 .topnav .icon {
-  display: none;
+display: none;
 }
 /* Page content */
 .content {
-  padding: 16px;
+padding: 16px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+position: fixed;
+top: 0;
+width: 100%;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 60px;
+padding-top: 60px;
 }
 
 /** End of Sticky NavBar **/
-
-.comingSoon{
-  font-size: 80px;
-  text-align: center;
+.welcomeSection{
+  background-color:hsla(0, 0%, 83%,0.8); padding-top: 0px; height: 820px;
 }
-.btnText{
+.htmlCodeFig{
+  width: 70%;
+}
+#htmlCodeImage{
+  height: 400px; width: 1000px; opacity: 0.6; margin-top: 12%; border: 2px solid hsla(355, 100%, 78%, .9); 
+}
+#title{
+  position: absolute;
+  margin-top: -16%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#title::before{
+  content: "Computer Science Portfolio ";
+  white-space: pre;
+  font-size: 3rem;
+  font-family: 'Open Sans', sans-serif;
+}
+.me{
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif; color: black;
+}
+.me::before{
+  content: "Programmer    |    Student    |    Creator";
+  white-space: pre; font-weight: 900;
+}
+.comingSoon{
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.comingSoon::after{
+  content: " \A  ";
+  white-space: pre;
+  color: white;
+}
+.arrow{
+  color:black;
+  font-weight: bold;
+}
+
+
+/* Python Terminal */
+#welcomeBanner{
+  border: 2px solid black;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  margin-bottom: 150px;
+  transform: translate(0px, 100px);
+}
+#topSectionBanner{
+  height: 30px;
+  background-color:  hsla(0, 0%, 83%,0.8);
+}
+#topSectionBannerLeft{
+  float: left;
+  width: 45%;
+}
+#topSectionBannerRight{
+  float: left;
+  width: 55%;
+  font-family: 'Open Sans', sans-serif;
+}
+#close{
+  padding: 10px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 5px;
+  transform:translate(0px, -5px);
+}
+#minimize{
+  padding: 10px;
+  border-radius: 50%;
+  background-color: hsla(56, 94%, 51%, 0.637);
+  margin-left: 5px; transform:translate(0px, -5px);
+}
+#expand{
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgba(141, 240, 84, 0.8);
+  margin-left: 5px; transform: translate(0px, -5px);
+}
+.pythonCode{
+  float: left;
+  margin-left: 15px; font-size: 2rem;
+
+}
+#pythonCodeOutput{
+  margin-left: 15px;
+  font-size: 2rem;
+  transform: translate(0px, -20px);
+  font-family: 'Open Sans', sans-serif;
+}
+.pythonCodeEnd{
+  float: left;
+  margin-left: 15px; font-size: 2rem;
+  transform: translate(0px, -20px);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+/* End of Python Terminal */
+
+
+
+
+
+
+
+
+.btnText::before{
   text-align: center;
   cursor: pointer;
 }
+
+.ballButton::before{
+  content: " Click here to see a ball bounce!";
+  font-family: 'Open Sans', sans-serif;
+
+}
+.ballButton:hover{
+  background-color:aqua;
+}
+
 .ballBox{
   border: 2px black solid; 
   height: 400px;width: 500px;
@@ -67,7 +194,17 @@
   padding: 90px; 
   border-radius: 50%
 }
+.userInfo{
+  background-color: hsla(0, 0%, 83%,0.8);
+  width: 500px;
+}
+.submitBtn{
+  background-color: hsla(154, 92%, 72%, 0.9);
+}
 
+    /* ----------- iPhone 6, 6S, 7, 8, and XR ----------- */
+
+    /* Portrait and Landscape */  
     @media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
 
       /**For Sticky NavBar **/
@@ -100,10 +237,98 @@
           display: block;
           text-align: left;
       }
-      .comingSoon{
-        font-size: 40px;
+      .welcomeSection{
+        padding-top: 80px;
+      }
+      .htmlCodeFig{
+        width: 100%;
+      }
+      #htmlCodeImage{
+        height: 300px; width: 360px; opacity: 0.6; margin-top: 0%; border: 2px solid hsla(355, 100%, 78%, .9); 
+      }
+      #title{
+        margin-top: -40%;
+      }
+      #title::before{
+        content: "Computer Science Portfolio\A\A";
+        display: inline-block;
+        white-space: pre;font-size: 1.6rem;
+      }
+
+      .me{
+        font-size: 1.4rem;
         text-align: center;
       }
+      .me::before{
+        content: "Programmer  |  Student  |  Creator";
+        white-space: pre;
+      }
+      .comingSoon{
+        font-size: 1.8rem;
+      }
+      .comingSoon::after{
+        content: "";
+        white-space: pre;
+      }
+      /* Python Terminal*/
+      #welcomeBanner{
+        width: 80%;
+        height: 250px;
+      }
+      #topSectionBanner{
+        height: 30px;
+        background-color:  hsla(0, 0%, 83%,0.8);
+      }
+      #topSectionBannerLeft{
+        float: left;
+        width: 40%;
+      }
+      #topSectionBannerRight{
+        float: left;
+        width: 60%; font-size: 1rem;
+        font-family: 'Open Sans', sans-serif;
+      }
+      #close{
+        padding: 5px;
+        border-radius: 50%;
+        background-color: red;
+        margin-left: 5px;
+        transform:translate(0px, -5px);
+      }
+      #minimize{
+        padding: 5px;
+        border-radius: 50%;
+        background-color: hsla(56, 94%, 51%, 0.637);
+        margin-left: 5px; transform:translate(0px, -5px);
+      }
+      #expand{
+        padding: 5px;
+        border-radius: 50%;
+        background-color: rgba(141, 240, 84, 0.8);
+        margin-left: 5px; transform: translate(0px, -5px);
+      }
+      .pythonCode{
+        float: left;
+        margin-left: 15px; font-size: 1.2rem;
+      
+      }
+      #pythonCodeOutput{
+        margin-left: 15px;
+        font-size: 1.2rem;
+        transform: translate(0px, -10px);
+        font-family: 'Open Sans', sans-serif;
+      }
+      .pythonCodeEnd{
+        float: left;
+        margin-left: 15px; font-size: 1.2rem;
+        transform: translate(0px, -20px);
+        font-family: 'Open Sans', sans-serif;
+      }
+
+
+
+
+
       .btnText{
         text-align: center;
         cursor: pointer;
@@ -115,10 +340,16 @@
         margin-left: auto;
         margin-right: auto;
       }
+      .userInfo{
+        background-color: hsla(0, 0%, 83%,0.8);
+        width: 200px;
+      }
 
     }
 
+    /* ----------- iPhone X ----------- */
 
+    /* Portrait and Landscape */  
 
     @media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-min-device-pixel-ratio: 3){
 
@@ -152,12 +383,91 @@
           display: block;
           text-align: left;
       }
+      .htmlCodeFig{
+        width: 100%;
+      }
+      .welcomeSection{
+        padding-top: 80px;
+      }
+      #htmlCodeImage{
+        height: 300px; width: 350px; opacity: 0.6; margin-top: 0%; border: 2px solid hsla(355, 100%, 78%, .9); 
+      }
+      #title{
+        margin-top: -40%;
+      }
+      #title::before{
+        content: "Computer Science Portfolio\A\A";
+        display: inline-block;
+        white-space: pre;
+        font-size: 1.6rem;
+      }
+      .me{
+        font-size: 1.8rem;
+        text-align: center;
+      }
       .comingSoon{
-        font-size: 40px;
+        font-size: 1.8rem;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
       }
+
+      /* Python Terminal*/
+      #welcomeBanner{
+        width: 80%;
+        height: 250px;
+      }
+      #topSectionBanner{
+        height: 30px;
+        background-color:  hsla(0, 0%, 83%,0.8);
+      }
+      #topSectionBannerLeft{
+        float: left;
+        width: 40%;
+      }
+      #topSectionBannerRight{
+        float: left;
+        width: 60%; font-size: 1rem;
+        font-family: 'Open Sans', sans-serif;
+      }
+      #close{
+        padding: 5px;
+        border-radius: 50%;
+        background-color: red;
+        margin-left: 5px;
+        transform:translate(0px, -5px);
+      }
+      #minimize{
+        padding: 5px;
+        border-radius: 50%;
+        background-color: hsla(56, 94%, 51%, 0.637);
+        margin-left: 5px; transform:translate(0px, -5px);
+      }
+      #expand{
+        padding: 5px;
+        border-radius: 50%;
+        background-color: rgba(141, 240, 84, 0.8);
+        margin-left: 5px; transform: translate(0px, -5px);
+      }
+      .pythonCode{
+        float: left;
+        margin-left: 15px; font-size: 1.2rem;
+      
+      }
+      #pythonCodeOutput{
+        margin-left: 15px;
+        font-size: 1.2rem;
+        transform: translate(0px, -10px);
+        font-family: 'Open Sans', sans-serif;
+      }
+      .pythonCodeEnd{
+        float: left;
+        margin-left: 15px; font-size: 1.2rem;
+        transform: translate(0px, -20px);
+        font-family: 'Open Sans', sans-serif;
+      }
+      /* End of Python Terminal */
+
       .btnText{
         text-align: center;
         cursor: pointer;
@@ -167,6 +477,10 @@
         height: 400px;width: 300px;
         margin-left: auto;
         margin-right: auto;
+      }
+      .userInfo{
+        background-color: hsla(0, 0%, 83%,0.8);
+        width: 200px;
       }
 
     }

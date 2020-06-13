@@ -46,11 +46,11 @@
         margin: 10px;
         border: 1px solid hsla(355, 100%, 78%, .9);
     }
-    .education h1{
+    .educationRightTitle{
         font-size: 2.5rem;
         display: block;
     }
-    .educationTitle{
+    .educationLeftTitle{
         border: 2px solid black;border-radius: 10px;
         width: 275px;
     }
@@ -165,7 +165,4 @@
         float: left;
         width: 100%;
     }
-
-
-
-
+}

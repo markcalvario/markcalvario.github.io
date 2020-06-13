@@ -1,3 +1,41 @@
+var i = 0;
+var txt = "print ('Welcome to my computer science portfolio page!')";
+var speed = 70;
+
+function typeWriter() {
+if (i < txt.length) {
+  document.getElementById("demo").innerHTML += txt.charAt(i);
+  i++;
+  setTimeout(typeWriter, speed);
+  }
+}
+       
+
+
+
+
+const userId= document.getElementById('userId');
+const firstName= document.getElementById('firstName');
+const lastName= document.getElementById('lastName');
+const email= document.getElementById('email');
+const submitBtn= document.getElementById('submitBtn');
+
+const database= firebase.database();
+
+submitBtn.addEventListener('click', (e)=>{
+  e.preventDefault();
+  database.ref('/users/'+userId.value).set({
+    first_name: firstName.value,
+    last_name: lastName.value,
+    email: email.value,
+  })
+});
+
+
+
+
+
+
 
 var boolean= true;
 function moveBallDown(){
@@ -35,3 +73,6 @@ function moveBallDown(){
             x.className = "topnav";
           }
         }
+
+
+

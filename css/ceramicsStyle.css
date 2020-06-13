@@ -701,11 +701,395 @@
             }
         }
 
+        /* ----------- iPad Pro 12.9" ----------- */
+        @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+            .row1{
+                margin: 0px 0px;
+                height: 700px;
+            }
+            .beehiveColumn{
+                width: 33%;
+            }
+            .beehiveImg{
+                height: 370px;
+                width: 262px;
+            }
+            .beehiveImg2{
+                height: 370px;
+                width: 262px;
+                transform: translate(0px,0px);
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .beehiveImg3{
+                height: 370px;
+                width: 262px;
+                visibility: visible;
+                transform: translate(0px,0px);
+            }
+            .beehiveDescription{
+                width: 300px;
+                transform: translate(0px,0px);  
+            }
+            .redBowlColumn{
+                width:33%;
+            }
+            .redBowlColumn{
+                transform: translate(0px, 40px);
+            }
+            .drippingRedBowl{
+                height: 300px;
+                width: 352px;
+            }
+            .drippingRedBowl2{
+                height: 300px;
+                width: 352px;
+                
+            }
+            .modalBowl{
+                height: 200px;
+                width: 252px;
+            }
+            .earthenwareVaseColumn{
+                width: 33%
+            }
+            .earthenwareVase{
+                height: 370px;
+                width: 262px;
+            }
+            .earthenwareVase2{
+                height: 370px;
+                width: 262px;
+            }
+            .earthenwareVaseModal{
+                height: 320px;
+                width: 212px;
+            }
+            .row2{
+                margin: 0px 0px;
+                height: 700px;
+            }
+            /* Green Marble Vase*/
+   
+            .greenMarbleVase{
+                height: 395px;
+                width: 287px;
+            }
+            .greenMarbleVase2{
+                height: 395px;
+                width: 287px;
+            }
+            .greenMarbleModal{
+                height: 320px;
+                width: 212px;
+            }
+            /* Swirl Bowl */
+            .swirlBowlColumn{
+                transform: translate(0px,40px);
+            }
+            .swirlBowl{
+                height: 300px;
+                width: 352px;
+            }
+            .swirlBowl2{
+                height: 300px;
+                width: 352px;
+                
+            }
+            .swirlBowlModal{
+                height: 200px;
+                width: 252px;
+            }
+        }
+
+        /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+            .img1{
+               
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            /* DEMO-SPECIFIC STYLES */
+            .typewriterBox{
+                border: .15em solid orange;
+                height:150px; 
+                width:250px;
+                display: block;
+            }
+            .typewriterBox p{
+                font-size:50px; color:white;
+                transform: translate(0px,-50px);
+            }
+            /* END OF TYPE WRITER EFFECT */
+            /**For Sticky NavBar **/
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 1;
+            }
+            .topnav a.active {
+              background-color: #333;
+              color: white;
+              display:none;
+            }
+            .topnav a:not(:first-child) {display: none;}
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+            .topnav.responsive {position: fixed;}
+            .topnav.responsive .icon {
+                position: fixed;
+                right: 0;
+                top: 0;
+            }
+            .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+          
+            /** End of Sticky NavBar **/
+            .column{
+                width: 100%;
+            }
+            .ceramicTitle h5{
+                font-size: .83em
+            }
+            .secondTitle{
+                font-size: 1.2em;
+            }
+            .row1{
+                margin: 0px;
+                height: 1400px;
+            }
+            .row2{
+                margin: 0px;
+                height: 1400px;
+            }
+            .galleryTitle{
+                font-size: 2.2rem;     
+            }
+            .beehiveColumn{
+                margin-bottom: 20px;
+                
+            }
+            .beehiveFigure{
+                width: 100%;
+            }
+            .beehiveImg{
+                height: 320px;
+                width: 212px;
+            }
+            .beehiveImg2{
+                height: 270px;
+                width: 162px;
+                transform: translate(0px,0px);
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .beehiveImg3{
+                height: 270px;
+                width: 162px;
+                display: none;
+                transform: translate(0px,0px);
+            }
+            .beehiveLeft{
+                float: none;
+                width: 100%;
+            }
+            .beehiveDescription{
+                width: 300px;
+                transform: translate(0px,0px);  
+            }
+
+            .redBowlColumn{
+                margin-bottom: 20px;
+                transform: translate(0px, 0px);
+            }
+            .drippingRedBowl{
+                height: 250px;
+                width: 302px;
+            }
+            .drippingRedBowl2{
+                height: 250px;
+                width: 302px;
+                
+            }
+            .modalBowl{
+                height: 150px;
+                width: 202px;
+            }
+            .earthenwareVaseColumn{
+               margin-bottom: 20px;
+            }
+            .earthenwareVase{
+                height: 320px;
+                width: 212px;
+            }
+            .earthenwareVase2{
+                height: 320px;
+                width: 212px;
+            }
+            .earthenwareVaseModal{
+                height: 270px;
+                width: 162px;
+            }
+            /* Green Marble Vase*/
+            .greenMarbleColumn{
+               margin-bottom: 20px;
+            }
+            .greenMarbleVase{
+                height: 345px;
+                width: 237px;
+            }
+            .greenMarbleVase2{
+                height: 345px;
+                width: 237px;
+            }
+            .greenMarbleModal{
+                height: 270px;
+                width: 162px;
+            }
+            /* Swirl Bowl */
+            .swirlBowlColumn{
+                margin-bottom: 20px;
+                transform: translate(0px, 0px);
+            }
+            .swirlBowl{
+                height: 250px;
+                width: 302px;
+            }
+            .swirlBowl2{
+                height: 250px;
+                width: 302px;
+                
+            }
+            .swirlBowlModal{
+                height: 150px;
+                width: 202px;
+            }
+            .modal{
+                padding-top: 48px;
+            }
+            .modal-content{
+                height: 550px;
+            }
+            .footer p{
+                font-size: 20px;
+                margin: 0px;
+            }
+        }
 
 
-
-
-
-
-
+        /* ----------- iPad 1, 2, Mini and Air ----------- */
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {
+            .row1{
+                margin: 0px 0px;
+                height: 900px;
+            }
+            .beehiveColumn{
+                width:50%;
+            }
+            .beehiveImg{
+                height: 320px;
+                width: 212px;
+            }
+            .beehiveImg2{
+                height: 320px;
+                width: 212px;
+                transform: translate(0px,0px);
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .beehiveImg3{
+                height: 320px;
+                width: 212px;
+                visibility: visible;
+                transform: translate(0px,0px);
+            }
+            .beehiveDescription{
+                width: 300px;
+                transform: translate(0px,0px);  
+            }
+            .redBowlColumn{
+                width: 50%;
+            }
+            .redBowlColumn{
+                transform: translate(0px, 40px);
+            }
+            .drippingRedBowl{
+                height: 250px;
+                width: 302px;
+            }
+            .drippingRedBowl2{
+                height: 250px;
+                width: 302px;
+                
+            }
+            .modalBowl{
+                height: 150px;
+                width: 202px;
+            }
+            .earthenwareVaseColumn{
+                width: 100%;
+            }
+            .earthenwareVase{
+                height: 320px;
+                width: 212px;
+            }
+            .earthenwareVase2{
+                height: 320px;
+                width: 212px;
+            }
+            .earthenwareVaseModal{
+                height: 270px;
+                width: 162px;
+            }
+            .row2{
+                margin: 0px 0px;
+                height: 1200px;
+            }
+            /* Green Marble Vase*/
+            .greenMarbleColumn{
+                width: 50%;
+            }
+            .greenMarbleVase{
+                height: 395px;
+                width: 287px;
+            }
+            .greenMarbleVase2{
+                height: 395px;
+                width: 287px;
+            }
+            .greenMarbleModal{
+                height: 320px;
+                width: 212px;
+            }
+            /* Swirl Bowl */
+            .swirlBowlColumn{
+                transform: translate(0px,40px);
+                width: 50%;
+            }
+            .swirlBowl{
+                height: 300px;
+                width: 352px;
+            }
+            .swirlBowl2{
+                height: 300px;
+                width: 352px;
+                
+            }
+            .swirlBowlModal{
+                height: 200px;
+                width: 252px;
+            }
+            .fireVaseColumn{
+                width: 100%;
+            }
+        }
 
